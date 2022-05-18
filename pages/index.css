@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+    font-family: 'Inter', sans-serif; 
+}
+
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+body {
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+}
+
+.page { 
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.header__title {
+    margin: 0 auto;
+}
+
+
+
