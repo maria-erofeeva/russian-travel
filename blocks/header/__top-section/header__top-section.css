@@ -1,0 +1,13 @@
+.header__top-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 52px;
+    margin-top: 28px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__top-section {
+        margin-top: 16px;
+    }
+}

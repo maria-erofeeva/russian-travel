@@ -1,0 +1,15 @@
+.header__language-link_russian {
+    width: 30px;
+    height: 28px;
+}
+
+@media screen and (max-width: 320px) {
+    .header__language-link_russian {
+        width: 22px;
+        height: 20px;
+    }
+}
+
+.header__language-link_russian:hover {
+    text-decoration: underline;
+}
