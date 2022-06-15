@@ -1,0 +1,6 @@
+.card__description {
+    max-width: 484px;
+    min-height: 660px;
+    display: flex;
+    flex-direction: column;
+}

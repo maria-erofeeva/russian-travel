@@ -1,0 +1,6 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    max-width: 984px;
+    min-height: 660px;
+}

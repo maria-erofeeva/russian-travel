@@ -28,6 +28,9 @@
 @import url(../blocks/gallery/__image/gallery__image.css);
 @import url(../blocks/gallery/__piece/gallery__item.css);
 
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+
 
 
 
