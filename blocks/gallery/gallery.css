@@ -1,0 +1,9 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
+    gap: 16px;
+    box-sizing: border-box;
+    padding: 92px 0 0 0;
+    margin: 0;
+}
