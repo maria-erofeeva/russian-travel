@@ -1,6 +1,7 @@
 .card__main-part {
-    max-width: 460px;
-    min-height: 660px;
+    width: 460px;
+    height: 660px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
 }

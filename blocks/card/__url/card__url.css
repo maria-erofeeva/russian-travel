@@ -1,4 +1,7 @@
 .card__url {
-    max-width: 456px;
-    min-height: 46px;
+    width: 456px;
+    height: 46px;
+    padding-bottom: 48px;
+    /*display: flex;
+    flex-direction: column-reverse;*/
 }
