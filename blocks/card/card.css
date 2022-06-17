@@ -1,18 +1,31 @@
 .card {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    width: 944px;
-    height: 660px;
-    flex-wrap: nowrap;
+    max-width: 984px;
+    min-height: 660px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width:1024px) {
     .card {
-        width: 928px;
-        height: 640px;
+        max-width: 928px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        max-width: 720px;
+        min-height: 581px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .card {
+        flex-wrap: wrap;
+        max-width: 320px;
+        min-height: 1042px;
     }
 }

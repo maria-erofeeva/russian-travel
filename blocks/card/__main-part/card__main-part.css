@@ -1,7 +1,13 @@
 .card__main-part {
-    width: 460px;
-    height: 660px;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    flex-direction: row;
+    height: 460px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:320px) {
+    .card__main-part {
+        flex-direction: column;
+    }
 }

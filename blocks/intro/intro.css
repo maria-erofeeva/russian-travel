@@ -5,18 +5,19 @@
     display: flex;
     flex-direction: column;
     margin: 92px 0 0 0;
-    padding: 0 100px;
+    padding: 0 148px;
 }
 
 @media screen and (max-width:1024px){
     .intro {
-        padding: 0;
+        padding: 0 48px;
     }
 }
 
 @media screen and (max-width:768px){
     .intro {
         margin: 88px 0 0 0;
+        padding: 0 24px;
     }
 }
 
@@ -24,5 +25,6 @@
     .intro {
         max-width: 288px;
         margin: 64px 0 0 0;
+        padding: 0 16px;
     }
 }

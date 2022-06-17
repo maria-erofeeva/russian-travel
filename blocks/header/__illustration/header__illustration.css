@@ -1,5 +1,6 @@
 .header__illustration {
     width: 100%;
+    height: 615px;
     box-sizing: border-box;
     padding: 0 100px;
     margin: 0 auto;
@@ -8,30 +9,19 @@
 @media screen and (max-width: 1024px) {
     .header__illustration {
         padding: 0;
+        height: 580px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header__illustration {
-        /*
-        z-index: 1;
-        min-width: 100%;
-        width: calc(100% + 24px);
-        width: calc(100% + 24px);
-        margin-left: -24px;
-        position: relative;
-        left: 0;
-        right: 0;
-        position: absolute;
-        top: 488px;
-        right: 0;
-        left: 0;
-        width: calc(100vw + 48px);*/
+        width: 100%;
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header__illustration {
-        padding: 0;
-    }
+        width: 100%;
+        height: 200px;
 }

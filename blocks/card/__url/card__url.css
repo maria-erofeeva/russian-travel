@@ -1,7 +1,27 @@
 .card__url {
-    width: 456px;
-    height: 46px;
-    padding-bottom: 48px;
-    /*display: flex;
-    flex-direction: column-reverse;*/
+    max-width: 456px;
+    min-height: 46px;
+    padding-left: 40px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width:1024px){
+    .card__url {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card__url {
+        padding: 32px 0 32px 0;
+        max-width: 352px;
+        min-height: 46px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__url {
+        align-self: flex-start;
+        max-width: 288px;
+    }
 }

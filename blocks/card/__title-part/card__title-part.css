@@ -1,0 +1,22 @@
+.card__title-part {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 152px;
+    padding-bottom: 48px;
+
+}
+
+@media screen and (max-width:768px) {
+    .card__title-part {
+        height: 92px;
+        word-wrap: break-word;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .card__title-part {
+        min-height: 113px;
+        flex-direction: column;
+    }
+}
