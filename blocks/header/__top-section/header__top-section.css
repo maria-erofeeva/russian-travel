@@ -1,13 +1,27 @@
 .header__top-section {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    max-width: 1184px;
     min-height: 52px;
     margin-top: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__top-section {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__top-section {
+        max-width: 720px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .header__top-section {
         margin-top: 16px;
+        padding: 0 16px;
+        max-width: 288px;
     }
 }

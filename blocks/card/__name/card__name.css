@@ -2,5 +2,19 @@
     color: #AAAAAA;
     margin: 0;
     font-size: 12px;
-    padding-bottom: 12px;
+    height: 12px;
 }
+
+/*@media screen and (max-width:768px){
+    .card__name {
+        height: 12px;
+        width: 28px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .card__name {
+        height: 12px;
+        width: 288px;
+    }
+}*/

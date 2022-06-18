@@ -3,3 +3,9 @@
     font-size: 18px;
     margin: 0;
 }
+
+@media screen and (max-width:320px){
+    .card__link {
+        padding-top: 12px;
+    }
+}

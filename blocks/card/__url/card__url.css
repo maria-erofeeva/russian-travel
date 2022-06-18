@@ -3,6 +3,7 @@
     min-height: 46px;
     padding-left: 40px;
     align-self: flex-end;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width:1024px){
@@ -13,9 +14,9 @@
 
 @media screen and (max-width:768px){
     .card__url {
-        padding: 32px 0 32px 0;
-        max-width: 352px;
-        min-height: 46px;
+        width: 352px;
+        height: 46px;
+        padding-left: 28px;
     }
 }
 
@@ -23,5 +24,6 @@
     .card__url {
         align-self: flex-start;
         max-width: 288px;
+        padding: 32px 16px;
     }
 }
