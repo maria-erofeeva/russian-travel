@@ -1,14 +1,14 @@
 .header__top-section {
     display: flex;
     justify-content: space-between;
-    max-width: 1184px;
+    width: 100%;
     min-height: 52px;
     margin-top: 28px;
 }
 
 @media screen and (max-width: 1024px) {
     .header__top-section {
-        max-width: 928px;
+        width: 100%;
     }
 }
 

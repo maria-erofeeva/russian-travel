@@ -2,10 +2,15 @@
     color: white;
     font-size: 18px;
     margin: 0;
+    transition: 0.5s linear;
 }
 
 @media screen and (max-width:320px){
     .card__link {
         padding-top: 12px;
     }
+}
+
+.card__link:hover {
+    opacity: 0.5;
 }

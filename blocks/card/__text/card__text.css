@@ -1,5 +1,4 @@
 .card__text {
-    height: 460px;
     padding-left: 40px;
     width: 484px;
     box-sizing: border-box;
@@ -7,7 +6,6 @@
 
 @media screen and (max-width:1024px){
     .card__text {
-        min-height: 440px;
         padding-left: 32px;
         max-width: 456px;
     }
@@ -15,7 +13,6 @@
 
 @media screen and (max-width:768px){
     .card__text {
-        min-height: 340px;
         padding-left: 28px;
         max-width: 352px;
     }
@@ -23,7 +20,6 @@
 
 @media screen and (max-width:320px){
     .card__text {
-        min-height: 601px;
         max-width: 288px;
         padding: 32px 16px 0 16px;
     }
