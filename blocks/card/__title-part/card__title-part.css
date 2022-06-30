@@ -1,23 +1,23 @@
 .card__title-part {
     display: flex;
-    flex-direction: row;
     width: 100%;
-    min-height: 76px;
+    /*min-height: 76px;
+    max-height: 152px;*/
     padding-bottom: 48px;
-    max-height: 152px;
 }
 
 @media screen and (max-width:768px) {
     .card__title-part {
-        min-height: 46px;
+        /*min-height: 46px;*/
         overflow: visible;
     }
 }
 
 @media screen and (max-width:320px) {
     .card__title-part {
-        min-height: 35px;
+        /*height: 113px;*/
         flex-direction: column;
         padding-bottom: 32px;
+        flex-direction: column;
     }
 }

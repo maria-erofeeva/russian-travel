@@ -1,6 +1,5 @@
 .card__main-part {
     display: flex;
-    flex-direction: row;
     font-size: 18px;
     font-weight: 400;
 }
