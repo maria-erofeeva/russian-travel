@@ -16,11 +16,11 @@
     .card__url {
         width: 352px;
         min-height: 46px;
-        padding-left: 28px;
+        padding-left: 38px;
     }
 }
 
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     .card__url {
         align-self: flex-start;
         max-width: 288px;
