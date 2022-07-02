@@ -1,5 +1,6 @@
 .header__language-link_english {
     max-width: 30px;
+    padding-left: 9px;
 }
 
 @media screen and (max-width: 425px) {
