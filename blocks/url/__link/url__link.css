@@ -1,4 +1,4 @@
-.card__link {
+.url__link {
     color: white;
     font-size: 1.1rem;
     font-weight: 400;
@@ -6,8 +6,9 @@
     transition: 0.5s linear;
     padding-top: 12px;
     display: block;
+    text-decoration: none;
 }
 
-.card__link:hover {
+.url__link:hover {
     opacity: 0.5;
 }
