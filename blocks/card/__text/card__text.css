@@ -1,20 +1,13 @@
 .card__text {
-    padding-left: 40px;
     max-width: 484px;
     box-sizing: border-box;
     line-height: 163%;
     font-size: 1.1rem;
 }
 
-@media screen and (max-width:1024px){
-    .card__text {
-        padding-left: 32px;
-    }
-}
-
 @media screen and (max-width:768px){
     .card__text {
-        padding-left: 28px;
+        
         font-size: 1rem;
     }
 }
