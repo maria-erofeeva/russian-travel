@@ -1,26 +1,27 @@
 .card__text {
     padding-left: 40px;
-    width: 484px;
+    max-width: 484px;
     box-sizing: border-box;
+    line-height: 163%;
+    font-size: 1.1rem;
 }
 
 @media screen and (max-width:1024px){
     .card__text {
         padding-left: 32px;
-        max-width: 456px;
     }
 }
 
 @media screen and (max-width:768px){
     .card__text {
         padding-left: 28px;
-        max-width: 352px;
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width:425px){
     .card__text {
-        max-width: 288px;
+        max-width: 100%;
         padding: 32px 16px 0 16px;
     }
 }

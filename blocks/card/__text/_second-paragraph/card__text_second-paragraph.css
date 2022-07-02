@@ -1,11 +1,11 @@
 .card__text_second-paragraph {
     margin: 0;
-    font-weight: 400;
-    font-size: 18px;
+    padding-top: 26px;
+    font-weight: 350;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
     .card__text_second-paragraph {
-        font-size: 16px;
+        padding-top: 25px;
     }
 }

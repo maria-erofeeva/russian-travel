@@ -14,9 +14,9 @@
 
 @media screen and (max-width:768px){
     .card__url {
-        width: 352px;
+        max-width: 352px;
         min-height: 46px;
-        padding-left: 38px;
+        padding-left: 28px;
     }
 }
 

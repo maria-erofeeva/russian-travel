@@ -1,20 +1,20 @@
 .header__title {
     margin: 56px 0 32px 0;
-    font-size: 96px;
+    font-size: 6rem;
     font-weight: 900;
-    line-height: 1;
+    line-height: 100px;
     letter-spacing: 0em;
     text-align: center;
-    height: 200px;
-    width: 720px;
+    min-height: 200px;
+    max-width: 720px;
     box-sizing: border-box;
 }
 
 @media screen and (max-width: 425px) {
     .header__title {
-        width: 288px;
-        height: 88px;
-        font-size: 40px;
+        max-width: 288px;
+        min-height: 88px;
+        font-size: 2.5rem;
         margin: 48px 0 16px 0;
     }
 }

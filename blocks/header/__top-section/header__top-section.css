@@ -21,7 +21,8 @@
 @media screen and (max-width: 425px) {
     .header__top-section {
         margin-top: 16px;
+        box-sizing: border-box;
         padding: 0 16px;
-        max-width: 288px;
+        max-width: 100%;
     }
 }

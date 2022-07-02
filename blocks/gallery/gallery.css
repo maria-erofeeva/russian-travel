@@ -6,12 +6,6 @@
     box-sizing: border-box;
     padding: 92px 48px;
     margin: 0;
-    /*max-width: 1184px;
-    min-height: 671px;
-    justify-items: stretch;
-    align-items: stretch;
-    grid-auto-rows: 213px;
-    grid-auto-columns: 284px;*/
 }
 
 @media screen and (max-width:1024px) {

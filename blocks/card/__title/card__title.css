@@ -3,32 +3,29 @@
     font-weight: 900;
     width: 460px;
     margin: 0;
-    line-height: 1;
+    line-height: 4.5rem;
     box-sizing: border-box;
-    overflow-wrap: break-word;
 }
 
 @media screen and (max-width:1024px) {
     .card__title {
-        max-width: 440px;
-        font-size: 72px;
+        width: 440px;
     }
 }
 
 @media screen and (max-width:768px) {
     .card__title {
-        min-height: 46px;
-        max-width: 330px;
-        font-size: 42px;
-        box-sizing: border-box;
+        width: 340px;
+        font-size: 2.6rem;
+        line-height: 46px;
     }
 }
 
 @media screen and (max-width:425px) {
     .card__title {
-        min-height: 35px;
-        max-width: 288px;
-        font-size: 32px;
+        width: fit-content;
+        font-size: 2rem;
+        line-height: 35px;
         padding-left: 16px;
     }
 }
