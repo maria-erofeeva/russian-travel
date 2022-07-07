@@ -1,13 +1,13 @@
 .footer__columns {
-    display: flex;
-    justify-content: space-between;
-    max-height: 18px;
+  display: flex;
+  justify-content: space-between;
+  max-height: 18px;
 }
 
-@media screen and (max-width:425px) {
-    .footer__columns {
-        flex-direction: column;
-        justify-content: space-between;
-        min-height: 310px;
-    }
+@media screen and (max-width: 425px) {
+  .footer__columns {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 310px;
+  }
 }

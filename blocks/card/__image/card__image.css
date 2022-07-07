@@ -1,27 +1,37 @@
 .card__image {
-  width: 460px;
-  padding-right: 40px;
+  width: 47%;
+  /*width: 460px;
+  height: 460px;*/
+  margin-right: 40px;
+  object-fit: cover;
 }
 
-@media screen and (max-width:1024px) {
-    .card__image {
-      width: 440px;
-      padding-right: 32px;
-    }
+@media screen and (max-width: 1024px) {
+  .card__image {
+    /*width: 440px;
+    height: 440px;*/
+    margin-right: 32px;
   }
-  
-  @media screen and (max-width:768px) {
-    .card__image {
-        width: 340px;
-        height: 340px;
-        padding-right: 28px;
-    }
+}
+
+@media screen and (max-width: 768px) {
+  .card__image {
+    /*width: 340px;
+    height: 340px;*/
+    margin-right: 28px;
   }
-  
-  @media screen and (max-width:425px) {
-    .card__image {
-        width: 100%;
-        height: fit-content;
-        padding: 0;
-    }
+}
+
+@media screen and (max-width: 425px) {
+  .card__image {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
   }
+}
+
+.card__image:after {
+  content: "";
+  padding-top: 100%;
+  display: block;
+} 

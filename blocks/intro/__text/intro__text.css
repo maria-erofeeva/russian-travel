@@ -1,13 +1,13 @@
 .intro__text {
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0 0 33px 0;
-    margin: 0;
-    line-height: 163%;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0 0 33px 0;
+  margin: 0;
+  line-height: 163%;
 }
 
-@media screen and (max-width:425px) {
-    .intro__text {
-        padding: 0 0 34px 0;
-    }
+@media screen and (max-width: 425px) {
+  .intro__text {
+    padding: 0 0 34px 0;
+  }
 }

@@ -1,7 +1,0 @@
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-}
-
-html { 
-  font-family: 'Inter', sans-serif; 
-}

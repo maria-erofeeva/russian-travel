@@ -1,12 +1,12 @@
 .card__title-part {
-    display: flex;
-    width: 100%;
-    padding-bottom: 48px;
+  display: flex;
+  width: 100%;
+  padding-bottom: 48px;
 }
 
-@media screen and (max-width:425px) {
-    .card__title-part {
-        flex-direction: column;
-        padding-bottom: 32px;
-    }
+@media screen and (max-width: 425px) {
+  .card__title-part {
+    flex-direction: column;
+    padding-bottom: 32px;
+  }
 }

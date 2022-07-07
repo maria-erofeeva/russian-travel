@@ -1,14 +1,26 @@
 .footer__column_content_menu {
-    display: flex;
-    font-size: 1rem;
-    line-height: 18px;
+  display: flex;
+  font-size: 1.2vw;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__column_content_menu {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__column_content_menu {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .footer__column_content_menu {
-        flex-direction: column;
-        font-size: 1.5rem;
-        line-height: 24px;
-        margin-bottom: 48px;
-    }
+  .footer__column_content_menu {
+    flex-direction: column;
+    font-size: 7.5vw;
+    line-height: 24px;
+    margin-bottom: 48px;
+  }
 }

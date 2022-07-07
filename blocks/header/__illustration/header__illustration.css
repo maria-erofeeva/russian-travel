@@ -1,18 +1,18 @@
 .header__illustration {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0 100px;
-    margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 100px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
-    .header__illustration {
-        padding: 0;
-    }
+  .header__illustration {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .header__illustration {
-        width: 100%;
-    }
+  .header__illustration {
+    width: 100%;
+  }
 }

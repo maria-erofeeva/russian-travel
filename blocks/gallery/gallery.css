@@ -1,34 +1,37 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(4, 284px);
-    grid-template-rows: repeat(3, 213px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  box-sizing: border-box;
+  padding: 92px 48px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 88px 24px;
     gap: 16px;
-    box-sizing: border-box;
-    padding: 92px 48px;
-    margin: 0;
+  }
 }
 
-@media screen and (max-width:1024px) {
-    .gallery {
-        grid-template-columns: repeat(3, 300px);
-        grid-template-rows: repeat(4, 225px);
-    }
-}
-
-@media screen and (max-width:768px) {
-    .gallery {
-        grid-template-columns: repeat(2, 352px);
-        grid-template-rows: repeat(6, 264px);
-        padding: 88px 24px;
-    }
-}
-
-@media screen and (max-width:425px) {
-    .gallery {
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 216px);
-        padding: 64px 16px;
-        min-width: 288px;
-        margin: 0 auto;
-    }
+@media screen and (max-width: 425px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    padding: 64px 16px;
+    min-width: 288px;
+    margin: 0 auto;
+    gap: 12px;
+  }
 }

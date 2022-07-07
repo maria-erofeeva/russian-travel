@@ -1,14 +1,14 @@
 .url__link {
-    color: white;
-    font-size: 1.1rem;
-    font-weight: 400;
-    margin: 0;
-    transition: 0.5s linear;
-    padding-top: 12px;
-    display: block;
-    text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+  transition: 0.5s linear;
+  padding-top: 12px;
+  display: block;
+  text-decoration: none;
 }
 
 .url__link:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
