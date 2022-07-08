@@ -11,5 +11,5 @@ The page contains 6 blocks. Starts with header, then intro, gallery, cards, link
 ------ 
 Plans: to add english page version.
 
-
-
+------ 
+Project link – https://maria-erofeeva.github.io/russian-travel/
