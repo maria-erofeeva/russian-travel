@@ -3,6 +3,8 @@
   box-sizing: border-box;
   max-width: 1184px;
   max-height: 18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,5 +25,8 @@
     margin: 64px 0 24px 16px;
     max-height: 310px;
     max-width: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 310px;
   }
 }
