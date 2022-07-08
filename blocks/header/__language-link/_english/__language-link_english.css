@@ -1,6 +1,8 @@
 .header__language-link_english {
   max-width: 30px;
   padding-left: 9px;
+  text-decoration: none;
+  transition: 0.5s linear;
 }
 
 @media screen and (max-width: 425px) {
@@ -10,5 +12,5 @@
 }
 
 .header__language-link_english:hover {
-  text-decoration: underline;
+  opacity: 0.5;
 }
