@@ -1,4 +1,4 @@
-.header__illustration {
+.lead__illustration {
   width: 100%;
   box-sizing: border-box;
   padding: 0 100px;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .header__illustration {
+  .lead__illustration {
     padding: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__illustration {
+  .lead__illustration {
     width: 100%;
   }
 }

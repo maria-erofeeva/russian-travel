@@ -6,6 +6,7 @@
   transition: 0.5s linear;
   padding-top: 12px;
   display: block;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 1024px) {
