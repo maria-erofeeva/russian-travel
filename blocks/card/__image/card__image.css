@@ -1,23 +1,17 @@
 .card__image {
   width: 47%;
-  /*width: 460px;
-  height: 460px;*/
   margin-right: 40px;
-  object-fit: cover;
+  height: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .card__image {
-    /*width: 440px;
-    height: 440px;*/
     margin-right: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .card__image {
-    /*width: 340px;
-    height: 340px;*/
     margin-right: 28px;
   }
 }
@@ -34,4 +28,4 @@
   content: "";
   padding-top: 100%;
   display: block;
-} 
+}

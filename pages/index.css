@@ -1,15 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__top-section/header__top-section.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__language-links/header__language-links.css);
 @import url(../blocks/header/__language-link/header__language-link.css);
-@import url(../blocks/header/__language-link/_english/__language-link_english.css);
-@import url(../blocks/header/__language-link/_russian/__language-link_russian.css);
+@import url(../blocks/header/__language-link/_active/__language-link_active.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__illustration/header__illustration.css);
@@ -20,7 +19,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/list/list.css);
 @import url(../blocks/list/__item/list__item.css);
-@import url(../blocks/list/__item/_meaning/__item_meaning.css);
+@import url(../blocks/list/__span-accent/list__span-accent.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
@@ -31,13 +30,11 @@
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__main-part/card__main-part.css);
 @import url(../blocks/card/__text/card__text.css);
-@import url(../blocks/card/__text/_first-paragraph/card__text_first-paragraph.css);
-@import url(../blocks/card/__text/_second-paragraph/card__text_second-paragraph.css);
+@import url(../blocks/card/__paragraph/card__paragraph.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__url/card__url.css);
-@import url(../blocks/url/url.css);
-@import url(../blocks/url/__link/url__link.css);
-@import url(../blocks/url/__name/url__name.css);
+@import url(../blocks/card/__url-name/card__url-name.css);
+@import url(../blocks/card/__url-link/card__url-link.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);

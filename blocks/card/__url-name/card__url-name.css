@@ -1,23 +1,24 @@
-.list__item {
-  font-weight: 700;
-  line-height: 150%;
+.card__url-name {
+  color: #aaaaaa;
+  margin: 0;
   font-size: 0.9vw;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1024px) {
-  .list__item {
+  .card__url-name {
     font-size: 1.1vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .list__item {
+  .card__url-name {
     font-size: 1.5vw;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .list__item {
+  .card__url-name {
     font-size: 3.7vw;
   }
 }

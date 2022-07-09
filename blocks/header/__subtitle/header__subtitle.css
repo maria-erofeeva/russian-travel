@@ -1,21 +1,30 @@
 .header__subtitle {
-  font-size: 1.9rem;
+  font-size: 2.3vw;
   font-weight: 400;
-  line-height: 36px;
+  line-height: 120%;
   letter-spacing: 0em;
   text-align: center;
-  width: 640px;
-  height: 72px;
+  max-width: 506px;
   margin: 0 auto 64px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__subtitle {
+    font-size: 2.9vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__subtitle {
+    font-size: 3.9vw;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .header__subtitle {
-    width: 288px;
-    height: 40px;
-    font-size: 1rem;
+    font-size: 5vw;
     margin: 0 auto 40px auto;
     padding: 0 16px;
-    line-height: 20px;
+    line-height: 125%;
   }
 }
