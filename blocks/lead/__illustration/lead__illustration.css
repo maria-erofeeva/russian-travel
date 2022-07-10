@@ -10,9 +10,3 @@
     padding: 0;
   }
 }
-
-@media screen and (max-width: 768px) {
-  .lead__illustration {
-    width: 100%;
-  }
-}

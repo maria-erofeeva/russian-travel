@@ -1,9 +1,10 @@
 .card__url-name {
   color: #aaaaaa;
   margin: 0;
-  font-size: 0.9vw;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {

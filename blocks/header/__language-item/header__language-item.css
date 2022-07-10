@@ -1,0 +1,24 @@
+.header__language-item {
+  max-width: 30px;
+  padding-left: 9px;
+  padding-right: 9px;
+  transition: 0.5s linear;
+}
+
+@media screen and (max-width: 425px) {
+  .header__language-item {
+    max-width: 22px;
+  }
+}
+
+.header__language-item:hover {
+  opacity: 0.8;
+}
+
+.header__language-item:last-child {
+  padding-right: 0;
+}
+
+.header__language-item:first-child {
+  padding-left: 0;
+}

@@ -2,11 +2,12 @@
   margin: 0;
   font-weight: 400;
   line-height: 163%;
-  font-size: 1.4vw;
+  font-size: 18px;
+  padding-top: 26px;
 }
 
-.card__paragraph:nth-child(2n) {
-  padding-top: 26px;
+.card__paragraph:first-child {
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,11 +23,12 @@
 }
 
 @media screen and (max-width: 425px) {
-  .card__paragraph:nth-child(2n) {
+  .card__paragraph {
     padding-top: 25px;
+    font-size: 5vw;
   }
 
-  .card__paragraph {
-    font-size: 5vw;
+  .card__paragraph:first-child {
+    padding-top: 0;
   }
 }

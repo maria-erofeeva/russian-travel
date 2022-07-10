@@ -1,5 +1,5 @@
 .cover__title {
-  font-size: 5.6vw;
+  font-size: 72px;
   font-weight: 900;
   margin: 0 0 16px 0;
   line-height: 105%;
@@ -7,20 +7,55 @@
   max-width: 560px;
   color: white;
   box-sizing: border-box;
-  padding: 0 40px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover__title {
     font-size: 7vw;
-    padding: 0 20px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 895px) {
+  .cover__title {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 787px) {
+  .cover__title {
+    padding: 0 66px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
     font-size: 9.3vw;
-    padding: 0 50px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover__title {
+    padding: 0 45px;
+  }
+}
+
+@media screen and (max-width: 633px) {
+  .cover__title {
+    padding: 0 70px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .cover__title {
+    padding: 0 80px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cover__title {
+    padding: 0 70px;
   }
 }
 
@@ -29,7 +64,31 @@
     font-size: 9.1vw;
     line-height: 109%;
     margin: 0 0 8px 0;
-    max-width: 255px;
+    max-width: 288px;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .cover__title {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .cover__title {
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width: 327px) {
+  .cover__title {
+    padding: 0 34px;
+  }
+}
+
+@media screen and (max-width: 303px) {
+  .cover__title {
+    padding: 0 40px;
   }
 }
