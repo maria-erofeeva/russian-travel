@@ -13,5 +13,6 @@
   .header__language-links {
     max-width: 62px;
     align-self: flex-end;
+    padding-bottom: 8px;
   }
 }
