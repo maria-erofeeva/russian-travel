@@ -13,6 +13,13 @@
   .cover__title {
     font-size: 7vw;
     padding: 0 30px;
+    max-width: 570px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  .cover__title {
+    max-width: 560px;
   }
 }
 

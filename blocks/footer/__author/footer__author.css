@@ -5,21 +5,8 @@
   line-height: 16px;
 }
 
-@media screen and (max-width: 1024px) {
-  .footer__author {
-    font-size: 1.3vw;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__author {
-    font-size: 1.8vw;
-  }
-}
-
 @media screen and (max-width: 425px) {
   .footer__author {
     line-height: 14px;
-    font-size: 4.3vw;
   }
 }
