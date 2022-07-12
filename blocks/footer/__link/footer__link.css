@@ -15,12 +15,18 @@
   opacity: 0.8;
 }
 
+@media screen and (max-width: 768px) {
+  .footer__link {
+    font-size: 2.083vw;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer__link {
     margin-right: 0;
     margin-bottom: 32px;
-    font-size: 7.5vw;
     line-height: 24px;
+    font-size: 24px;
   }
 
   .footer__link:last-child {

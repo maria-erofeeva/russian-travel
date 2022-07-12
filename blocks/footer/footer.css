@@ -16,10 +16,10 @@
 
 @media screen and (max-width: 425px) {
   .footer {
-    margin: 64px 0 24px 16px;
+    margin: 64px 0 24px;
     max-width: fit-content;
     flex-direction: column;
     align-self: flex-start;
-    padding: 0;
+    padding: 0 0 0 16px;
   }
 }
